@@ -1,0 +1,59 @@
+/* Navigation */
+/* #navbar {
+     flex-direction: column;
+} */
+
+
+header
+{
+ padding: 5px 15px;
+}
+#navbar ul li a{
+    font-size: .9rem;
+    padding: 1px 5px;
+}
+#name-nav
+{
+  font-size: 2rem;
+color: rgb(254 146 0);
+ font-family: 'Baloo Bhai', cursive;
+ text-shadow: 2px 2px rgb(255 255 255); 
+}
+header::before
+{
+ height: 80%;
+}
+
+/* About us section */
+
+#aboutus{
+    /* height: 370px;  */
+    padding: 3px 2px;
+}
+
+/* #aboutus::before{
+    height: 100vmax; 
+} */
+
+#aboutus p{
+    font-size: 12px;
+}
+
+#aboutus img
+{
+ height: 100px;
+ width: 100px;
+ margin: 5px 5px;
+}
+#aboutus ul li
+{
+ font-size: 12px;
+}
+/* Extra classes */
+#first-head{
+    font-size:26px;
+}
+#second-head
+{
+    font-size:18px;   
+}

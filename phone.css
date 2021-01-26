@@ -1,0 +1,42 @@
+#name-nav
+{
+ font-size: 4.6vw;
+ text-shadow: none;
+}
+
+#navbar ul li a{
+    font-size: 3vw;
+    padding: 1px 5px;
+}
+header
+{
+ height: 60px;
+}
+header::before
+{
+ height: 60%;
+ top: 14px;
+}
+/* about us */
+#aboutus img
+{
+ height: 80px;
+ width: 80px;
+ margin: 5px 5px;
+}
+#aboutus p{
+    font-size: 10px;
+}
+#aboutus ul li
+{
+ font-size: 10px;
+}
+
+#first-head
+{
+ font-size: 17px;
+}
+#second-head
+{
+ font-size: 14px;
+}

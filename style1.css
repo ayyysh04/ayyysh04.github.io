@@ -34,9 +34,13 @@ header::before{
 #name-nav
 {
   font-size: 3rem;
-  color: rgb(254 146 0);
  font-family: 'Baloo Bhai', cursive;
  text-shadow: 3px 3px rgb(255 255 255); 
+}
+#name-nav a
+{
+  color: rgb(254 146 0);
+ text-decoration: none;
 }
 /* Navigation Bar: List Styling */
 #navbar ul
@@ -133,7 +137,16 @@ html {
   text-align: center;
   font-family: 'Bree Serif', serif;
 }
-#aboutus p,#aboutus li{
+#aboutus p{
+  font-family: 'Open Sans', sans-serif;
+  /* color:#7306ffeb; */
+  color: black;
+  text-align: center;
+  font-size: 1.8vw;
+  list-style-position: inside;
+  padding: 5px 0px;
+}
+#aboutus li{
   font-family: 'Bree Serif', serif;
   color:#7306ffeb;
   text-align: center;
@@ -154,8 +167,11 @@ html {
   font-family: 'Bree Serif', serif;
   font-size: 2rem;
   padding: 12px;
+  text-decoration: wavy;
+  text-decoration-line: underline;
 }
 
 .star-rating {
-  color: #37c20f;
+  /* color: #37c20f; */
+  color:#7306ffeb
 }
